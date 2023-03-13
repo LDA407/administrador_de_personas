@@ -1,0 +1,12 @@
+<form method="post">
+    {{form.csrf_token}}
+    {{form.nombre.label}}
+    {{form.nombre(size=30)}}
+    {{form.apellido.label}}
+    {{form.apellido(size=30)}}
+    {{form.email.label}}
+    {{form.email(size=30)}}
+    {{form.send}}
+
+
+</form>
